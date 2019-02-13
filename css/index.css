@@ -1,0 +1,293 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  font-family: STHeitiSC-Light;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-text-size-adjust: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+ins,
+a {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: inline-block;
+}
+
+input,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
+  -o-tap-highlight-color: transparent;
+}
+
+/*html {
+    font-size: $browser-default-font-size;
+}*/
+html {
+  font-size: 37.5px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  width: 100%;
+  height: 1.06667rem;
+  border-bottom: 0.02667rem solid #ccc;
+  display: flex;
+  line-height: 1.06667rem;
+  font-size: 0.42667rem;
+}
+
+.head span {
+  font-size: 0.42667rem;
+}
+
+.head p {
+  width: 100%;
+  line-height: 1.06667rem;
+  text-align: center;
+}
+
+.mainbody {
+  width: 100%;
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.mainbody .top {
+  width: 100%;
+  height: 1.6rem;
+  border-bottom: 0.02667rem solid #ccc;
+  display: flex;
+}
+
+.mainbody .top img {
+  width: 1.86667rem;
+}
+
+.mainbody .top p {
+  font-size: 0.37333rem;
+  line-height: 1.6rem;
+}
+
+.mainbody .loc {
+  width: 100%;
+  height: 1.6rem;
+  border-bottom: 0.02667rem solid #ccc;
+  display: flex;
+}
+
+.mainbody .loc img {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-top: 0.26667rem;
+}
+
+.mainbody .loc p {
+  font-size: 0.42667rem;
+  line-height: 1.6rem;
+}
+
+.mainbody .loc span {
+  color: #ccc;
+  font-size: 0.42667rem;
+  line-height: 1.6rem;
+}
+
+.footer {
+  width: 100%;
+  height: 1.6rem;
+  background: #000;
+  display: flex;
+  font-size: 0.37333rem;
+}
+
+.footer .left {
+  width: 80%;
+}
+
+.footer .left p {
+  text-indent: 1em;
+  color: #fff;
+  padding-top: 0.26667rem;
+}
+
+.footer .left p:nth-of-type(2) {
+  color: #ccc;
+}
+
+.footer .right {
+  width: 20%;
+}
+
+.footer .right img {
+  width: 1.33333rem;
+  text-align: center;
+}
